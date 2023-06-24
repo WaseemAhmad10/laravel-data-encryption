@@ -1,16 +1,16 @@
 {
-    "name": "techwasi/laravel-data-encryption",
-    "description": "Automatically encryption and decryption data overriding getAttribute an setAttribute methods of Eloquent Model.",
+    "name": "waseem/laravel-data-encryption",
+    "description": "Automatically encryption and decryption data overriding by using getAttribute an setAttribute methods of Eloquent Model.",
     "keywords": ["encryption", "laravel", "laravel 10.x","decryption", "eloquent", "data","model"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Techwasi\\Encipher\\": "src/"
+            "Waseem\\Encipher\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Techwasi\\Encipher\\Tests\\": "tests/"
+            "Waseem\\Encipher\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -37,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Techwasi\\Encipher\\EncryptServiceProvider"
+                "Waseem\\Encipher\\EncryptServiceProvider"
             ],
             "dont-discover": [
                 "*"

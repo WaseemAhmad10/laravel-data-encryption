@@ -1,9 +1,9 @@
 <?php
 
-namespace Techwasi\Encipher\Tests;
+namespace Waseem\Encipher\Tests;
 
 
-use Techwasi\Encipher\EncryptServiceProvider;
+use Waseem\Encipher\EncryptServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

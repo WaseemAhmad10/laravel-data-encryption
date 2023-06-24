@@ -1,5 +1,5 @@
 <?php
-namespace Techwasi\Encipher;
+namespace Waseem\Encipher;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;

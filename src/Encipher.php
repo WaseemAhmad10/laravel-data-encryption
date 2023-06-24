@@ -1,5 +1,5 @@
 <?php 
-namespace Techwasi\Encipher;
+namespace Waseem\Encipher;
 
 trait Encipher
 {

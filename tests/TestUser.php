@@ -1,9 +1,9 @@
 <?php
 
-namespace Techwasi\Encipher\Tests;
+namespace Waseem\Encipher\Tests;
 
 use Illuminate\Database\Eloquent\Model;
-use Techwasi\Encipher\Encipher;
+use Waseem\Encipher\Encipher;
 
 class TestUser extends Model
 {

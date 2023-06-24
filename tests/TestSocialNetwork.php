@@ -1,6 +1,6 @@
 <?php
 
-namespace Techwasi\Encipher\Tests;
+namespace Waseem\Encipher\Tests;
 
 use Illuminate\Database\Eloquent\Model;
 

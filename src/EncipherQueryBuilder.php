@@ -1,5 +1,5 @@
 <?php
-namespace Techwasi\Encipher;
+namespace Waseem\Encipher;
 
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Query\Builder;

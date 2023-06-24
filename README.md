@@ -3,29 +3,29 @@ A trait to encrypt data models in Laravel, this automatically encrypt and decryp
 ## How to install
 Run composer installation
 ```bash
-    composer require techwasi/laravel-data-encryption
+    composer require waseem/laravel-data-encryption
 ```
     
 Add ServiceProvider to your app/config.php file
 ```php
     'providers' => [
         ...
-        \Techwasi\Encipher\EncryptServiceProvider::class,
+        \Waseem\Encipher\EncryptServiceProvider::class,
     ],
 ```
 Publish configuration file, this will create config/encrypt.php 
 ```bash
-     php artisan vendor:publish --provider=Techwasi\Encipher\EncryptServiceProvider
+     php artisan vendor:publish --provider=Waseem\Encipher\EncryptServiceProvider
 ``` 
 
 ## How to use
 
 1.  You must add `SECRET_ENCRYPT_KEY` and `ENCRYPT_PREFIX` in your .env file or set it in your `config/encrypt.php` file
 
-2. Use the `Techwasi\Encipher\Encipher` trait:
+2. Use the `Waseem\Encipher\Encipher` trait:
     
     ```php
-    use Techwasi\Encipher\Encipher;
+    use Waseem\Encipher\Encipher;
     ```  
     
 3. Set the `$encipher` array on your Model.
@@ -42,7 +42,7 @@ Publish configuration file, this will create config/encrypt.php
     namespace App;
     
     use Illuminate\Database\Eloquent\Model;
-    use Techwasi\Encipher\Encipher;
+    use Waseem\Encipher\Encipher;
     
     class User extends Model
     {
