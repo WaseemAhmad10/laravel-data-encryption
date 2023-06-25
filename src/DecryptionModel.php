@@ -59,7 +59,7 @@ class DecryptionModel extends Command
             $bar->finish();
         }
 
-        $this->comment(' Finished encryption');
+        $this->comment(' Finished decryption');
     }
 
     private function getDecryptedAttributes($record)
