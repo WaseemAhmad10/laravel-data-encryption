@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 
-class EncryptServiceProvider extends ServiceProvider
+class EncipherServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

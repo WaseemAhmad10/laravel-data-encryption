@@ -10,12 +10,12 @@ Add ServiceProvider to your app/config.php file
 ```php
     'providers' => [
         ...
-        \Waseem\Encipher\EncryptServiceProvider::class,
+        \Waseem\Encipher\EncipherServiceProvider::class,
     ],
 ```
 Publish configuration file, this will create config/encrypt.php 
 ```bash
-     php artisan vendor:publish --provider=Waseem\Encipher\EncryptServiceProvider
+     php artisan vendor:publish --provider=Waseem\Encipher\EncipherServiceProvider
 ``` 
 
 ## How to use

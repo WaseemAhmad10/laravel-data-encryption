@@ -1,6 +1,6 @@
 <?php
 
-namespace Teachwasi\Encipher;
+namespace Waseem\Encipher;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Model;

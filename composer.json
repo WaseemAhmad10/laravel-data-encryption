@@ -38,7 +38,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Waseem\\Encipher\\EncryptServiceProvider"
+                "Waseem\\Encipher\\EncipherServiceProvider"
             ],
             "dont-discover": [
                 "*"

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Config;
 
 class Encrypter
 {
-    private $method = Config::get('encrypt.method');
+    private $method;
     private $key;
     private $prefix;
 
@@ -51,6 +51,17 @@ class Encrypter
             $this->prefix = Config::get('encrypt.prefix');
         }
         return $this->prefix;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMethod()
+    {
+        if(! $this->method){
+            $this->method = Config::get('encrypt.method');
+        }
+        return $this->method;
     }
 
 }
