@@ -3,7 +3,7 @@
     "description": "Automatically encryption and decryption data overriding by using getAttribute an setAttribute methods of Eloquent Model.",
     "keywords": ["encryption", "laravel", "laravel 10.x","decryption", "eloquent", "data model"],
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Waseem\\Encipher\\": "src"
