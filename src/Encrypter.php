@@ -14,7 +14,7 @@ class Encrypter
      */
     public function encrypt($value)
     {
-        return $this->getPrefix() . '_' . openssl_encrypt($value, $this->method, $this->getKey(), 0, $iv = '');
+        return $this->getPrefix() . '_' . openssl_encrypt($value, getMethod(), $this->getKey(), 0, $iv = '');
     }
 
     /**
@@ -25,7 +25,7 @@ class Encrypter
     {
         $value = str_replace("{$this->getPrefix()}_",'',$value);
 
-        return openssl_decrypt($value, $this->method, $this->getKey(), 0, $iv = '');
+        return openssl_decrypt($value, getMethod(), $this->getKey(), 0, $iv = '');
     }
 
 
