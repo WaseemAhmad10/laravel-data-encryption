@@ -1,7 +1,7 @@
 {
     "name": "waseem/laravel-data-encryption",
     "description": "Automatically encryption and decryption data overriding by using getAttribute an setAttribute methods of Eloquent Model.",
-    "keywords": ["encryption", "laravel", "laravel 10.x","decryption", "eloquent", "data","model"],
+    "keywords": ["encryption", "laravel", "laravel 10.x","decryption", "eloquent", "data model"],
     "license": "MIT",
     "version": "1.0.0",
     "autoload": {
